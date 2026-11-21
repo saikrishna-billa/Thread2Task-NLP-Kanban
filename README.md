@@ -17,6 +17,16 @@ The system combines a fine-tuned DistilBERT action-item classifier with discours
 ### 3. Extracted Action Items
 ![Extracted Tasks](screenshots/extracted_tasks.png)
 
+## Sample NLP Output
+
+Thread2Task converts unstructured team conversations into structured task records containing descriptions, assignees, deadlines, statuses, and source-message references.
+
+The application also supports exporting the extracted tasks as a JSON file for further analysis or integration with other systems.
+
+**[View Sample JSON Output](examples/sample_output.json)**
+
+The sample output was generated using the demonstration conversation shown in the application screenshots.
+
 ## Features
 
 - Detect actionable messages from conversation transcripts.
