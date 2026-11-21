@@ -1,0 +1,91 @@
+[
+    {
+        "conversation_id": "eval_001",
+        "category": "requests_commitments_progress",
+        "transcript": "[2026-11-01 09:00] Maya: Ravi, prepare the launch checklist by Tuesday.\n[2026-11-01 09:02] Ravi: I'll handle it.\n[2026-11-01 09:05] Nora: Please review the deployment logs.\n[2026-11-01 10:00] Ravi: I've started working on the launch checklist.\n[2026-11-01 11:00] Ravi: The launch checklist is complete.",
+        "gold_tasks": [
+            {
+                "description": "Prepare the launch checklist",
+                "assignee": "Ravi",
+                "due_date": "2026-11-03",
+                "status": "DONE"
+            },
+            {
+                "description": "Review the deployment logs",
+                "assignee": null,
+                "due_date": null,
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "conversation_id": "eval_002",
+        "category": "greetings_suggestions_and_assignment",
+        "transcript": "[2026-11-02 09:00] Neha: Good morning everyone. Let's review our agenda.\n[2026-11-02 09:02] Neha: We should consider redesigning the dashboard.\n[2026-11-02 09:04] Dev: The server failed yesterday.\n[2026-11-02 09:06] Neha: Priya will draft the onboarding guide by Friday.\n[2026-11-02 09:08] Priya: I'll draft the onboarding guide.",
+        "gold_tasks": [
+            {
+                "description": "Draft the onboarding guide",
+                "assignee": "Priya",
+                "due_date": "2026-11-06",
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "conversation_id": "eval_003",
+        "category": "cancellation_and_separate_task",
+        "transcript": "[2026-11-03 09:00] Arun: Kiran, update the payment dashboard by Thursday.\n[2026-11-03 09:02] Kiran: I'll handle it.\n[2026-11-03 10:00] Arun: We no longer need the payment dashboard.\n[2026-11-03 10:15] Arun: Sara, write the release notes by 2026-11-10.",
+        "gold_tasks": [
+            {
+                "description": "Update the payment dashboard",
+                "assignee": "Kiran",
+                "due_date": "2026-11-05",
+                "status": "CANCELLED"
+            },
+            {
+                "description": "Write the release notes",
+                "assignee": "Sara",
+                "due_date": "2026-11-10",
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "conversation_id": "eval_004",
+        "category": "passive_assignment_reassignment_completion",
+        "transcript": "[2026-11-04 09:00] Leena: Omar has been assigned to test the mobile app.\n[2026-11-04 09:20] Leena: Zara will handle the mobile app testing instead.\n[2026-11-04 10:00] Zara: I've started working on the mobile app.\n[2026-11-04 12:00] Zara: The mobile app is complete.",
+        "gold_tasks": [
+            {
+                "description": "Test the mobile app",
+                "assignee": "Zara",
+                "due_date": null,
+                "status": "DONE"
+            }
+        ]
+    },
+    {
+        "conversation_id": "eval_005",
+        "category": "multiple_active_tasks_and_ambiguous_commitment",
+        "transcript": "[2026-11-05 09:00] Jacob: Nina, prepare the invoice summary by Monday.\n[2026-11-05 09:01] Jacob: Raj, verify the access logs by Tuesday.\n[2026-11-05 09:02] Nina: I'll handle it.",
+        "gold_tasks": [
+            {
+                "description": "Prepare the invoice summary",
+                "assignee": "Nina",
+                "due_date": "2026-11-09",
+                "status": "TODO"
+            },
+            {
+                "description": "Verify the access logs",
+                "assignee": "Raj",
+                "due_date": "2026-11-10",
+                "status": "TODO"
+            }
+        ]
+    },
+    {
+        "conversation_id": "eval_006",
+        "category": "no_action_items",
+        "transcript": "[2026-11-06 09:00] Asha: Good morning everyone.\n[2026-11-06 09:02] Ben: The deployment finished yesterday.\n[2026-11-06 09:04] Asha: Maybe we could redesign the login screen.\n[2026-11-06 09:06] Ben: The database is currently running normally.\n[2026-11-06 09:08] Asha: We discussed the release plan last week.",
+        "gold_tasks": []
+    }
+]

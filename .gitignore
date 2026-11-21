@@ -1,0 +1,40 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Generated data
+data/raw/
+data/processed/
+
+# Evaluation outputs
+data/evaluation/heldout/evaluation_report_*.json
+
+# Large trained model weights
+# Trained model weights and checkpoints
+models/**/*.safetensors
+*.pth
+*.pt
+*.ckpt
+
+models/action_classifier_smoke/
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Temporary project reports
+project_inventory.txt
+module_imports.txt
+project_structure.txt
+
+# Operating system
+.DS_Store
+Thumbs.db

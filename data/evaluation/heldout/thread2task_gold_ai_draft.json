@@ -1,0 +1,318 @@
+[
+  {
+    "conversation_id": "H01",
+    "category": "Indirect request",
+    "transcript": "[2026-11-09 09:00] Maya: Can you take care of the deployment checklist, Arjun?\n[2026-11-09 09:02] Arjun: Sure, I can own that.\n[2026-11-09 09:04] Maya: The staging environment was slow yesterday.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Handle the deployment checklist",
+        "assignee": "Arjun",
+        "due_date": null,
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H02",
+    "category": "Conditional work",
+    "transcript": "[2026-11-09 10:00] Priya: If security approves, deploy the new payment gateway.\n[2026-11-09 10:02] Dev: Approval has not arrived yet.\n[2026-11-09 10:03] Priya: Don't deploy anything before approval.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Deploy the new payment gateway",
+        "assignee": null,
+        "due_date": null,
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H03",
+    "category": "Negated completion",
+    "transcript": "[2026-11-09 11:00] Sara: Omar, prepare the incident report by Wednesday.\n[2026-11-09 11:12] Omar: I haven't finished the incident report.\n[2026-11-09 11:15] Sara: Please keep working on it.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Prepare the incident report",
+        "assignee": "Omar",
+        "due_date": "2026-11-11",
+        "status": "IN_PROGRESS"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H04",
+    "category": "Nonadjacent reference",
+    "transcript": "[2026-11-10 09:00] Leena: Ravi, migrate the customer records by Thursday.\n[2026-11-10 09:02] Nina: Does the old server have sufficient space?\n[2026-11-10 09:03] Leena: We can discuss that after lunch.\n[2026-11-10 09:08] Ravi: I'll take care of that.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Migrate the customer records",
+        "assignee": "Ravi",
+        "due_date": "2026-11-12",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H05",
+    "category": "Two tasks in one message",
+    "transcript": "[2026-11-10 10:00] Nikhil: Tara, update the API documentation and publish the release notes by Friday.\n[2026-11-10 10:03] Tara: I'll do both.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Update the API documentation",
+        "assignee": "Tara",
+        "due_date": "2026-11-13",
+        "status": "TODO"
+      },
+      {
+        "description": "Publish the release notes",
+        "assignee": "Tara",
+        "due_date": "2026-11-13",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H06",
+    "category": "Reassignment correction",
+    "transcript": "[2026-11-10 11:00] Asha: Rohan, create the onboarding tutorial.\n[2026-11-10 11:05] Asha: Correction: Meera will handle the onboarding tutorial, not Rohan.\n[2026-11-10 11:06] Meera: Understood.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Create the onboarding tutorial",
+        "assignee": "Meera",
+        "due_date": null,
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H07",
+    "category": "Deadline change",
+    "transcript": "[2026-11-11 09:00] David: Emma, complete the analytics dashboard by Friday.\n[2026-11-11 09:10] Emma: I can finish it next week instead.\n[2026-11-11 09:12] David: Okay, move the dashboard deadline to next Tuesday.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Complete the analytics dashboard",
+        "assignee": "Emma",
+        "due_date": "2026-11-17",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H08",
+    "category": "Paraphrased completion",
+    "transcript": "[2026-11-11 10:00] Nina: Alex, fix the login API by tomorrow.\n[2026-11-11 13:00] Alex: The authentication endpoint is ready for QA.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Fix the login API",
+        "assignee": "Alex",
+        "due_date": "2026-11-12",
+        "status": "IN_PROGRESS"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H09",
+    "category": "Two similar tasks",
+    "transcript": "[2026-11-11 11:00] Raj: Priya, test the payment API.\n[2026-11-11 11:01] Raj: Arjun, test the login API.\n[2026-11-11 11:12] Priya: The payment API is complete.\n[2026-11-11 11:20] Arjun: I'm still working on the login API.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Test the payment API",
+        "assignee": "Priya",
+        "due_date": null,
+        "status": "DONE"
+      },
+      {
+        "description": "Test the login API",
+        "assignee": "Arjun",
+        "due_date": null,
+        "status": "IN_PROGRESS"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H10",
+    "category": "Suggestions only",
+    "transcript": "[2026-11-12 09:00] Meera: We could switch to PostgreSQL someday.\n[2026-11-12 09:04] Jay: Maybe adding email alerts would be nice.\n[2026-11-12 09:06] Meera: Let's think about it next sprint.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": []
+  },
+  {
+    "conversation_id": "H11",
+    "category": "Pronoun and follow-up",
+    "transcript": "[2026-11-12 10:00] Kiran: I'll write the unit tests for the parser.\n[2026-11-12 10:02] Aditi: I can review them once they're ready.\n[2026-11-12 10:03] Kiran: I'll send them later today.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Write unit tests for the parser",
+        "assignee": "Kiran",
+        "due_date": null,
+        "status": "TODO"
+      },
+      {
+        "description": "Review the parser unit tests",
+        "assignee": "Aditi",
+        "due_date": null,
+        "status": "TODO"
+      },
+      {
+        "description": "Send the parser unit tests",
+        "assignee": "Kiran",
+        "due_date": "2026-11-12",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H12",
+    "category": "Cancellation",
+    "transcript": "[2026-11-12 11:00] Omar: Sara, prepare the customer survey.\n[2026-11-12 11:05] Sara: I haven't started the survey.\n[2026-11-12 11:07] Omar: Cancel the survey. Research already covered it.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Prepare the customer survey",
+        "assignee": "Sara",
+        "due_date": null,
+        "status": "CANCELLED"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H13",
+    "category": "Quoted request",
+    "transcript": "[2026-11-13 09:00] Ben: The customer wrote, \"Please reset my password\" in the feedback form.\n[2026-11-13 09:02] Maya: That's an example for our presentation.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": []
+  },
+  {
+    "conversation_id": "H14",
+    "category": "Historical vs future work",
+    "transcript": "[2026-11-13 10:00] Emma: The report was delivered yesterday.\n[2026-11-13 10:05] David: Emma, draft the next monthly report by November 20.\n[2026-11-13 10:06] Emma: I'll start tomorrow.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Draft the next monthly report",
+        "assignee": "Emma",
+        "due_date": "2026-11-20",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H15",
+    "category": "Unknown assignee",
+    "transcript": "[2026-11-13 11:00] Lead: Someone should investigate the memory leak.\n[2026-11-13 11:02] Alex: It might be a driver issue.\n[2026-11-13 11:04] Lead: We haven't assigned an owner yet.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": []
+  },
+  {
+    "conversation_id": "H16",
+    "category": "Status vs task",
+    "transcript": "[2026-11-14 09:00] Noor: The backup finished at midnight.\n[2026-11-14 09:02] Noor: Anjali, prepare a recovery drill by Monday.\n[2026-11-14 09:10] Anjali: I can set that up.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Prepare a recovery drill",
+        "assignee": "Anjali",
+        "due_date": "2026-11-16",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H17",
+    "category": "Deadline clarification",
+    "transcript": "[2026-11-14 16:00] Tara: Vikram, submit the slides by Saturday.\n[2026-11-14 16:02] Vikram: Today or next Saturday?\n[2026-11-14 16:05] Tara: Next Saturday, November 21.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Submit the slides",
+        "assignee": "Vikram",
+        "due_date": "2026-11-21",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H18",
+    "category": "Blocked state",
+    "transcript": "[2026-11-15 09:00] Arjun: Maya, integrate the billing service.\n[2026-11-15 10:00] Maya: I'm blocked because the vendor API is down.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Integrate the billing service",
+        "assignee": "Maya",
+        "due_date": null,
+        "status": "IN_PROGRESS"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H19",
+    "category": "Duplicate reminder",
+    "transcript": "[2026-11-16 09:00] Sara: David, prepare the weekly status report by Thursday.\n[2026-11-16 12:00] Sara: David, reminder to prepare the weekly status report by Thursday.\n[2026-11-16 12:01] David: Got it.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": [
+      {
+        "description": "Prepare the weekly status report",
+        "assignee": "David",
+        "due_date": "2026-11-19",
+        "status": "TODO"
+      }
+    ]
+  },
+  {
+    "conversation_id": "H20",
+    "category": "No actionable item",
+    "transcript": "[2026-11-16 10:00] Alex: Why was the build broken on Friday?\n[2026-11-16 10:02] Emma: The registry was unavailable.\n[2026-11-16 10:04] Alex: We might replace that dependency eventually.\n[2026-11-16 10:06] Emma: We should discuss it later.",
+    "reviewed": false,
+    "annotation_source": "AI_DRAFT_NOT_INDEPENDENTLY_VERIFIED",
+    "annotation_notes": "AI-generated provisional reference; human review recommended prior to final reporting.",
+    "gold_tasks": []
+  }
+]

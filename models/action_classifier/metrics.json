@@ -1,0 +1,23 @@
+{
+  "note": "Metrics are measured against weak validation labels.",
+  "model": "distilbert-base-uncased",
+  "train_samples": 1200,
+  "val_samples": 300,
+  "epochs_completed": 2,
+  "validation_metrics": {
+    "accuracy": 0.9,
+    "precision": 0.6956521739130435,
+    "recall": 0.41025641025641024,
+    "f1": 0.5161290322580645,
+    "confusion_matrix": [
+      [
+        254,
+        7
+      ],
+      [
+        23,
+        16
+      ]
+    ]
+  }
+}

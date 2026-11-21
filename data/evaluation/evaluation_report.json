@@ -1,0 +1,309 @@
+{
+  "evaluation_type": "starter_conversation_benchmark",
+  "gold_annotation_status": "REQUIRES_HUMAN_REVIEW",
+  "matching_method": "normalized token F1 >= 0.50",
+  "total_conversations": 6,
+  "total_gold_tasks": 8,
+  "total_predicted_tasks": 8,
+  "task_detection": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "matched_task_attributes": {
+    "matched_tasks": 8,
+    "assignee_accuracy": 1.0,
+    "deadline_accuracy": 1.0,
+    "status_accuracy": 1.0
+  },
+  "per_conversation": [
+    {
+      "conversation_id": "eval_001",
+      "category": "requests_commitments_progress",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "comparisons": [
+        {
+          "gold_description": "Prepare the launch checklist",
+          "predicted_description": "Prepare the launch checklist",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Prepare the launch checklist",
+            "assignee": "Ravi",
+            "due_date": "2026-11-03",
+            "status": "DONE"
+          },
+          "predicted": {
+            "task_id": "t0001",
+            "assignee": "Ravi",
+            "due_date": "2026-11-03",
+            "status": "DONE",
+            "needs_review": false,
+            "source_message_ids": [
+              "m0001",
+              "m0002",
+              "m0004",
+              "m0005"
+            ]
+          }
+        },
+        {
+          "gold_description": "Review the deployment logs",
+          "predicted_description": "Review the deployment logs",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Review the deployment logs",
+            "assignee": null,
+            "due_date": null,
+            "status": "TODO"
+          },
+          "predicted": {
+            "task_id": "t0002",
+            "assignee": null,
+            "due_date": null,
+            "status": "TODO",
+            "needs_review": false,
+            "source_message_ids": [
+              "m0003"
+            ]
+          }
+        }
+      ],
+      "missed_gold_tasks": [],
+      "extra_predicted_tasks": [],
+      "unmatched_events": []
+    },
+    {
+      "conversation_id": "eval_002",
+      "category": "greetings_suggestions_and_assignment",
+      "gold_count": 1,
+      "predicted_count": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "comparisons": [
+        {
+          "gold_description": "Draft the onboarding guide",
+          "predicted_description": "Draft the onboarding guide",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Draft the onboarding guide",
+            "assignee": "Priya",
+            "due_date": "2026-11-06",
+            "status": "TODO"
+          },
+          "predicted": {
+            "task_id": "t0001",
+            "assignee": "Priya",
+            "due_date": "2026-11-06",
+            "status": "TODO",
+            "needs_review": false,
+            "source_message_ids": [
+              "m0004",
+              "m0005"
+            ]
+          }
+        }
+      ],
+      "missed_gold_tasks": [],
+      "extra_predicted_tasks": [],
+      "unmatched_events": []
+    },
+    {
+      "conversation_id": "eval_003",
+      "category": "cancellation_and_separate_task",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "comparisons": [
+        {
+          "gold_description": "Update the payment dashboard",
+          "predicted_description": "Update the payment dashboard",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Update the payment dashboard",
+            "assignee": "Kiran",
+            "due_date": "2026-11-05",
+            "status": "CANCELLED"
+          },
+          "predicted": {
+            "task_id": "t0001",
+            "assignee": "Kiran",
+            "due_date": "2026-11-05",
+            "status": "CANCELLED",
+            "needs_review": false,
+            "source_message_ids": [
+              "m0001",
+              "m0002",
+              "m0003"
+            ]
+          }
+        },
+        {
+          "gold_description": "Write the release notes",
+          "predicted_description": "Write the release notes",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Write the release notes",
+            "assignee": "Sara",
+            "due_date": "2026-11-10",
+            "status": "TODO"
+          },
+          "predicted": {
+            "task_id": "t0002",
+            "assignee": "Sara",
+            "due_date": "2026-11-10",
+            "status": "TODO",
+            "needs_review": false,
+            "source_message_ids": [
+              "m0004"
+            ]
+          }
+        }
+      ],
+      "missed_gold_tasks": [],
+      "extra_predicted_tasks": [],
+      "unmatched_events": []
+    },
+    {
+      "conversation_id": "eval_004",
+      "category": "passive_assignment_reassignment_completion",
+      "gold_count": 1,
+      "predicted_count": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "comparisons": [
+        {
+          "gold_description": "Test the mobile app",
+          "predicted_description": "Test the mobile app",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Test the mobile app",
+            "assignee": "Zara",
+            "due_date": null,
+            "status": "DONE"
+          },
+          "predicted": {
+            "task_id": "t0001",
+            "assignee": "Zara",
+            "due_date": null,
+            "status": "DONE",
+            "needs_review": true,
+            "source_message_ids": [
+              "m0001",
+              "m0002",
+              "m0003",
+              "m0004"
+            ]
+          }
+        }
+      ],
+      "missed_gold_tasks": [],
+      "extra_predicted_tasks": [],
+      "unmatched_events": []
+    },
+    {
+      "conversation_id": "eval_005",
+      "category": "multiple_active_tasks_and_ambiguous_commitment",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "comparisons": [
+        {
+          "gold_description": "Prepare the invoice summary",
+          "predicted_description": "Prepare the invoice summary",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Prepare the invoice summary",
+            "assignee": "Nina",
+            "due_date": "2026-11-09",
+            "status": "TODO"
+          },
+          "predicted": {
+            "task_id": "t0001",
+            "assignee": "Nina",
+            "due_date": "2026-11-09",
+            "status": "TODO",
+            "needs_review": false,
+            "source_message_ids": [
+              "m0001"
+            ]
+          }
+        },
+        {
+          "gold_description": "Verify the access logs",
+          "predicted_description": "Verify the access logs",
+          "matching_similarity": 1.0,
+          "assignee_correct": true,
+          "deadline_correct": true,
+          "status_correct": true,
+          "gold": {
+            "description": "Verify the access logs",
+            "assignee": "Raj",
+            "due_date": "2026-11-10",
+            "status": "TODO"
+          },
+          "predicted": {
+            "task_id": "t0002",
+            "assignee": "Raj",
+            "due_date": "2026-11-10",
+            "status": "TODO",
+            "needs_review": true,
+            "source_message_ids": [
+              "m0002",
+              "m0003"
+            ]
+          }
+        }
+      ],
+      "missed_gold_tasks": [],
+      "extra_predicted_tasks": [],
+      "unmatched_events": []
+    },
+    {
+      "conversation_id": "eval_006",
+      "category": "no_action_items",
+      "gold_count": 0,
+      "predicted_count": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "comparisons": [],
+      "missed_gold_tasks": [],
+      "extra_predicted_tasks": [],
+      "unmatched_events": []
+    }
+  ]
+}
