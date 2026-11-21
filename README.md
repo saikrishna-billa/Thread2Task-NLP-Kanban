@@ -6,6 +6,17 @@ Thread2Task is an NLP-based application that transforms team conversation transc
 
 The system combines a fine-tuned DistilBERT action-item classifier with discourse analysis, contextual task consolidation, attribute extraction, and task-state tracking.
 
+## Application Screenshots
+
+### 1. Interactive Kanban Board
+![Kanban Board](screenshots/kanban_board.png)
+
+### 2. Conversation Input
+![Conversation Input](screenshots/conversation_input.png)
+
+### 3. Extracted Action Items
+![Extracted Tasks](screenshots/extracted_tasks.png)
+
 ## Features
 
 - Detect actionable messages from conversation transcripts.
