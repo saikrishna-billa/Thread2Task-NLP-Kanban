@@ -1,0 +1,89 @@
+{
+  "tasks": [
+    {
+      "task_id": 1,
+      "description": "Guys, the payment gateway is throwing 500 errors on production! We need the key update fixed ASAP.",
+      "owner": "Sarah",
+      "status": "To-Do",
+      "deadline": "Unscheduled",
+      "urgency": "High",
+      "speaker": "Sarah",
+      "category": "Infrastructure Update",
+      "risk_level": "Moderate Operational Risk",
+      "risk_confidence": 0.56,
+      "aspect_tone": "Technical Blame / Frustration"
+    },
+    {
+      "task_id": 2,
+      "description": "Alex, can you update the API keys by 3 PM today? We are losing transactions.",
+      "owner": "Alex",
+      "status": "To-Do",
+      "deadline": "2026-11-21 15:00:00",
+      "urgency": "Medium",
+      "speaker": "Sarah",
+      "category": "Feature Request",
+      "risk_level": "Critical System Outage",
+      "risk_confidence": 0.4,
+      "aspect_tone": "Technical Blame / Frustration"
+    },
+    {
+      "task_id": 3,
+      "description": "Sure, I will handle the key update before 3 PM.",
+      "owner": "Alex",
+      "status": "In Progress",
+      "deadline": "2026-11-21 15:00:00",
+      "urgency": "Low",
+      "speaker": "Alex",
+      "category": "Administrative Task",
+      "risk_level": "Critical System Outage",
+      "risk_confidence": 0.57,
+      "aspect_tone": "Technical Blame / Frustration"
+    },
+    {
+      "task_id": 4,
+      "description": "I already updated the staging environment keys yesterday, so staging is fine.",
+      "owner": "David",
+      "status": "To-Do",
+      "deadline": "2026-11-20 10:30:00",
+      "urgency": "Low",
+      "speaker": "David",
+      "category": "Infrastructure Update",
+      "risk_level": "Critical System Outage",
+      "risk_confidence": 0.64,
+      "aspect_tone": "Technical Blame / Frustration"
+    },
+    {
+      "task_id": 5,
+      "description": "Thanks David. Please run the full regression test suite on prod once Alex finishes.",
+      "owner": "David",
+      "status": "To-Do",
+      "deadline": "Unscheduled",
+      "urgency": "Low",
+      "speaker": "Sarah",
+      "category": "Feature Request",
+      "risk_level": "Moderate Operational Risk",
+      "risk_confidence": 0.44,
+      "aspect_tone": "Technical Blame / Frustration"
+    }
+  ],
+  "participant_metrics": [
+    {
+      "name": "Sarah",
+      "avg_sentiment": -0.05,
+      "dominant_tone": "Neutral",
+      "urgency": "High"
+    },
+    {
+      "name": "Alex",
+      "avg_sentiment": 0.34,
+      "dominant_tone": "Constructive",
+      "urgency": "Low"
+    },
+    {
+      "name": "David",
+      "avg_sentiment": 0.26,
+      "dominant_tone": "Constructive",
+      "urgency": "Low"
+    }
+  ]
+}
